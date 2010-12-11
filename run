@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+var argv = require('optimist').argv,
+    stat = require('./lib/stat'),
+    fs = require('fs');
+    
+var config = JSON.parse(fs.readFileSync(argv.config || './config.json'));
+
+stat.createStat(config);

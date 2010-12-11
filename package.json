@@ -1,0 +1,14 @@
+{
+  "name"          : "npm.stat",
+  "description"   : "Stats for npm",
+  "dependencies"  : {
+    "vows": ">=0.5.2",
+    "connect": ">=0.3.0",
+    "socket.io": ">=0.6.1",
+    "optimist": ">=0.1.1"
+  },
+  "version"       : "0.1.0",
+  "author": "Fedor Indutny <fedor.indutny@gmail.com>",
+  "engines"       : { "node": ">=0.3.1" }
+}
+

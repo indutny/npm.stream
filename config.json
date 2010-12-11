@@ -1,0 +1,12 @@
+{
+  "changes": {
+    "host": "isaacs.couchone.com",
+    "port": 80,
+    "limit": 20,
+    "url": "/jsregistry/_changes?feed=continuous&include_docs=true"    
+  },
+  "server": {
+    "port": 8081,
+    "host": "192.168.0.100"
+  }
+}
